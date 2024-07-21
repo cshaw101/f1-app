@@ -1,0 +1,42 @@
+/* HomePage.css */
+
+/* Center the container on the page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, rgba(238, 174, 202, 0.6), rgba(148, 187, 233, 0.6));
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2); /* Slightly more transparent for better contrast */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* Blurring effect */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for definition */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* White text color for contrast */
+}
+
+.card-image {
+  width: 80px; /* Smaller size for the image */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #fff; /* White text color for contrast */
+}
+
+.card-content p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #ddd; /* Light gray color for text */
+}
